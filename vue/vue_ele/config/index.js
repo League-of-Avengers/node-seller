@@ -44,13 +44,23 @@ module.exports = {
   },
 
   build: {
-    // Template for index.html
-    index: path.resolve(__dirname, "../dist/index.html"),
+    // // Template for index.html
+    // index: path.resolve(__dirname, "../dist/index.html"),
 
-    // Paths
-    assetsRoot: path.resolve(__dirname, "../dist"),
-    assetsSubDirectory: "static",
-    assetsPublicPath: "/",
+    // // Paths
+    // assetsRoot: path.resolve(__dirname, "../dist"),
+    // assetsSubDirectory: "static",
+    // assetsPublicPath: "/",
+
+
+    /**
+     * 在 egg 框架中，修改为下面配置
+     */
+    index: path.resolve(__dirname, '../../../app/view/vue_ele.html'),
+    assetsRoot: path.resolve(__dirname, '../../../app/public/'),
+    assetsSubDirectory: 'vue_ele',
+    assetsPublicPath: '/public/',
+
 
     /**
      * Source Maps

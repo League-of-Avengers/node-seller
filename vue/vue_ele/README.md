@@ -1,6 +1,8 @@
-# vue_waimai
+# vue_ele
 
-1. 修改 config/index.js 中 dev 的 proxyTable 代理， host 为 0.0.0.0
+1. 修改 config/index.js 中 dev 的 proxyTable 代理，将请求代理到 http://127.0.0.1:7001
+2. 修改 config/index.js 中 dev 的 host 为 0.0.0.0  方便同局域网内的其他设备访问
+3. 修改 config/index.js 中 build 的 assetsRoot 等参数，打包时代码放到符合 egg 目录结构中
 
 > A Vue.js project
 
