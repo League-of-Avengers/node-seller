@@ -17,6 +17,28 @@ APP： 采用 weex 改造 vue 项目
 *详情查看各自的 README.md*
 
 
+# 本项目启动
+
+分为两部分：
+1. node部分
+
+```
+$ npm install
+$ npm run dev           # http://127.0.0.1:7001        路由请查看 {root}/app/router.js
+```
+
+2. vue 前端部分
+
+```
+$ cd vue/vue_ele
+$ npm install
+$ npm run dev           # http://127.0.0.1:8080
+```
+
+*开发时需要同时启动两个cmd*
+
+
+
 # 参考文档：
 
 egg: https://eggjs.org/zh-cn/tutorials/index.html
@@ -31,6 +53,8 @@ https://github.com/ustbhuangyi/vue-sell
 https://github.com/bailicangdu/vue2-elm
 
 https://github.com/bailicangdu/node-elm
+
+
 
 
 
