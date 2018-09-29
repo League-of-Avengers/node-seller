@@ -3,9 +3,13 @@
 # 技术栈
 
 后端： node + egg + mysql + sequelize + redis
+
 后台PC： vue + elementUI + vue-element-admin
+
 前台wap： vue + vue_router + axios + vuex
+
 小程序：采用 mpvue 改造 vue 项目
+
 APP： 采用 weex 改造 vue 项目
 
 
