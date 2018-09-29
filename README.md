@@ -42,11 +42,20 @@ $ npm run dev           # http://127.0.0.1:8080
 *开发时需要同时启动两个cmd*
 
 
+# 接口文档
+
+> 查看 API.md
+
+
 
 # 参考文档：
 
 egg: https://eggjs.org/zh-cn/tutorials/index.html
+
+Sequelize：https://github.com/demopark/sequelize-docs-Zh-CN
+
 vue: https://cn.vuejs.org/
+
 vue-element-admin: https://panjiachen.github.io/vue-element-admin/#/dashboard
 
 
