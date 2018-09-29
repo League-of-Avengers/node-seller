@@ -20,6 +20,10 @@ APP： 采用 weex 改造 vue 项目
 
 *详情查看各自的 README.md*
 
+后续进阶：
+
+前台wap 采用 vue ssr 服务端渲染利于 seo
+
 
 # 本项目启动
 
