@@ -1,0 +1,59 @@
+/**
+  移动端 1px 的处理
+  原理：在需要 1px 的元素上定位一个伪类，通过缩放伪类的 border 来达到 1px 的效果
+**/
+
+
+/**
+  定义 1px 的处理的 Mixin
+**/
+.border-1px-mixin {
+  position: relative;
+  &::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(7, 17, 27, 0.1);
+    content: " ";
+  }
+}
+
+/**
+  定义 1px 的颜色处理的 Mixin
+**/
+.border-1px-color-mixin(@color) {
+  &::after {
+    border-top: 1px solid @color;
+  }
+}
+
+
+//  定义不同的 dpi 移动设备上的 1px 边框
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .border-1px {
+    .border-1px-mixin(); // 利用 less mixin
+    &::after {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
+    }
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+  .border-1px {
+    .border-1px-mixin(); // 利用 less mixin
+    &::after {
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+  }
+}
+
+
+.border-none() {
+  &:after {
+    display: none;
+  }
+}
+
