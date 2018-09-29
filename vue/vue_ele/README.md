@@ -4,7 +4,13 @@
 2. 修改 config/index.js 中 dev 的 host 为 0.0.0.0  方便同局域网内的其他设备访问
 3. 修改 config/index.js 中 build 的 assetsRoot 等参数，打包时代码放到符合 egg 目录结构中
 
-> A Vue.js project
+
+# 与 https://github.com/ustbhuangyi/vue-sell 不同
+
+1. 使用 less 编译器
+2. 没有在 webpack-dev-server 来 mock 数据，使用 egg 来 mock server
+3. 使用 axios 来进行 ajax 请求
+
 
 ## Build Setup
 

@@ -9,6 +9,9 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 
+// 引入全局 css
+import './common/css/reset.css';
+
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 

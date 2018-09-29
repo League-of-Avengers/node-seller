@@ -60,7 +60,12 @@ Sequelize：https://github.com/demopark/sequelize-docs-Zh-CN
 
 vue: https://cn.vuejs.org/
 
-vue-element-admin: https://panjiachen.github.io/vue-element-admin/#/dashboard
+vue-element-admin: https://panjiachen.github.io/vue-element-admin-site/zh/
+
+mpvue: http://mpvue.com/
+
+weex: http://weex.apache.org/cn/guide/
+
 
 
 # 参考项目：

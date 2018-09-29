@@ -6,7 +6,7 @@ class HomeController extends Controller {
 
   async index() {
     // this.ctx.body = 'hi, egg';
-    await this.ctx.render('better_scroll.html')
+    await this.ctx.render('vue_ele.html')
   }
 
   // 商家信息
