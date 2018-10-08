@@ -1,7 +1,7 @@
 
 <template>
   <div class="header">
-    <h2>goods</h2>
+    <h2>评分</h2>
   </div>
 </template>
 

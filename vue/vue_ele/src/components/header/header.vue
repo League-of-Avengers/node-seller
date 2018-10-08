@@ -30,6 +30,8 @@
     <div class="background">
       <img :src="seller.avatar" width="100%" height="100%">
     </div>
+
+    <!-- 浮窗 -->
     <transition name="fade">
       <div v-show="detailShow" class="detail">
         <div class="detail-wrapper clearfix">
@@ -83,6 +85,7 @@ export default {
     };
   },
   created() {
+    // 不同活动图标的样式名称
     this.classMap = ["decrease", "discount", "special", "invoice", "guarantee"];
   },
   components: {
